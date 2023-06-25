@@ -1,0 +1,41 @@
+body{
+    background: url(wood.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#container{
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+button{
+    border: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bold;
+    font-family: Helvetica;
+    height: 50px;
+    width: 100px;
+}
+#increment-btn{
+    background: rgb(68, 62, 148);
+}
+
+#save-btn{
+    background: rgb(69, 167, 69);
+}
+
+#save-el{
+    font-weight: bold;
+}
